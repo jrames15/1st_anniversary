@@ -1,57 +1,19 @@
-# Happy 1st Anniversary ❤️
+# @babel/core
 
-A premium, interactive anniversary website — an emotional journey built with love.
+> Babel compiler core.
 
-## Quick Start
+See our website [@babel/core](https://babeljs.io/docs/babel-core) for more information or the [issues](https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20core%22+is%3Aopen) associated with this package.
 
-```bash
-cd anniversary-site
-npm install
-npm run dev
+## Install
+
+Using npm:
+
+```sh
+npm install --save-dev @babel/core
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+or using yarn:
 
-## Customize Your Gift
-
-### Photos (Memories)
-
-Edit `src/data/memories.ts` — replace the `src` URLs with your own photos:
-
-1. Add photos to `public/photos/` (e.g. `public/photos/us-1.jpg`)
-2. Update each memory entry: `src: "/photos/us-1.jpg"`
-
-### Love Letter
-
-Edit `src/data/letter.ts` — change the letter text and signature to your own words.
-
-### Songs (Flower Garden)
-
-Edit `src/data/songs.ts` — update titles, Spotify links, and flower positions.
-
-### Background Music
-
-Edit the `playlist` array in `src/components/anniversary/MusicPlayer.tsx`:
-
-1. Add MP3 files to `public/audio/`
-2. Set `src: "/audio/your-song.mp3"`
-
-Music only starts after user interaction (tap play or fill hearts).
-
-## Deploy
-
-```bash
-npm run build
-npm start
+```sh
+yarn add @babel/core --dev
 ```
-
-Deploy to [Vercel](https://vercel.com) for free — connect your Git repo and deploy.
-
-## Tech Stack
-
-- Next.js 16 · React 19 · TypeScript
-- Tailwind CSS 4
-- Framer Motion · GSAP · Lenis
-- Howler.js · React Photo View
-
-Made with love for Bebii 💕
